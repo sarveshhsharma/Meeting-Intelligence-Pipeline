@@ -172,20 +172,6 @@ This reduces irrelevant context, controls generation more tightly, and lowers th
 ## Setup
 
 ```bash
-# Clone the repository
-git clone <repo-url>
-cd meeting-intelligence-pipeline
-
-# Configure environment variables
-cp .env.example .env   # add your OPENAI_API_KEY
-
-# Run with Docker Compose
-docker-compose up --build
-```
-
-Or run services individually:
-
-```bash
 # Backend
 cd backend
 pip install -r requirements.txt
